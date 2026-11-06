@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Rolando Gonzales Jr., BSIT student.">
+  <title>Rolando Gonzales Jr. | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-glow glow-one"></div><div class="page-glow glow-two"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home"><span class="brand-mark">R</span><span>Rolando<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link nav-contact">Contact <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> BSIT STUDENT · FUTURE DEVELOPER</div>
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1>Rolando Gonzales <span class="gradient-text">Jr.</span></h1>
+        <h2>I’m learning to build <span id="typedText">web experiences.</span><span class="cursor">|</span></h2>
+        <p class="hero-description">A Bachelor of Science in Information Technology student who enjoys learning new technologies, solving problems, and turning ideas into practical digital projects.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta"><span>📍 Cainta, Rizal</span><span class="meta-divider"></span><span>Open to learning and opportunities</span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="profile-card">
+          <div class="profile-top"><span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span><span class="profile-label">MY PROFILE</span></div>
+          <div class="avatar"><span>RG</span><i class="avatar-spark">✦</i></div>
+          <h3>Rolando Gonzales Jr.</h3>
+          <p>Information Technology Student</p>
+          <div class="profile-line"></div>
+          <div class="profile-info"><span>STUDENT NO.</span><strong>OLCA211E053</strong></div>
+          <div class="profile-info"><span>PROGRAM</span><strong>BS Information Technology</strong></div>
+          <div class="profile-info"><span>CAMPUS</span><strong>ICCT Cainta Campus</strong></div>
+          <div class="code-chip"><span>const</span> future = <b>"developer";</b></div>
+        </div>
+        <div class="floating-tag tag-html"><b>&lt;/&gt;</b> HTML</div>
+        <div class="floating-tag tag-python"><b>Py</b> Python</div>
+        <div class="floating-tag tag-js"><b>JS</b> JavaScript</div>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading reveal"><p class="section-kicker">01 / ABOUT ME</p><h2>A little about <span class="gradient-text">my journey.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-main glass-card reveal"><div class="card-icon">✦</div><h3>Learning today. Building for tomorrow.</h3>
+          <p>Hi! I'm Rolando Gonzales Jr., a BSIT student at ICCT Colleges – Cainta Campus. I value responsibility, continuous learning, and personal growth. I take my studies seriously while balancing other responsibilities, and I believe that hard work, discipline, and consistency help turn goals into achievements.</p>
+          <p>I'm currently developing my skills in web development and programming. I enjoy exploring how technology works and learning how to use it to create useful solutions.</p>
+        </div>
+        <div class="about-side reveal"><div class="mini-stat glass-card"><span class="stat-number">04</span><span class="stat-label">Technologies I'm learning</span></div><div class="mini-stat glass-card"><span class="stat-number">∞</span><span class="stat-label">Curiosity to keep learning</span></div><div class="quote-card"><span>“</span><p>Small progress every day leads to meaningful results.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading reveal"><p class="section-kicker">02 / MY TOOLKIT</p><h2>Skills & <span class="gradient-text">technologies.</span></h2><p class="section-subtitle">The tools and languages I'm currently studying and practicing.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card glass-card reveal"><div class="skill-symbol html-symbol">&lt;/&gt;</div><h3>HTML</h3><p>Building the structure and content of web pages.</p><span class="skill-level">FOUNDATION</span></article>
+        <article class="skill-card glass-card reveal"><div class="skill-symbol css-symbol">✳</div><h3>CSS</h3><p>Styling layouts, colors, and responsive designs.</p><span class="skill-level">FOUNDATION</span></article>
+        <article class="skill-card glass-card reveal"><div class="skill-symbol js-symbol">JS</div><h3>JavaScript</h3><p>Adding interactivity and dynamic behavior to websites.</p><span class="skill-level">LEARNING</span></article>
+        <article class="skill-card glass-card reveal"><div class="skill-symbol py-symbol">Py</div><h3>Python</h3><p>Practicing programming logic, classes, and data structures.</p><span class="skill-level">LEARNING</span></article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading reveal"><p class="section-kicker">03 / SELECTED WORK</p><h2>Projects & <span class="gradient-text">practice.</span></h2><p class="section-subtitle">A few examples of the kinds of academic and programming projects I work on. Replace or update these with your final project details.</p></div>
+      <div class="projects-grid">
+        <article class="project-card glass-card reveal"><div class="project-visual visual-one"><span class="visual-code">&lt;queue /&gt;</span><span class="visual-orb"></span></div><div class="project-content"><div class="project-type">PYTHON · DATA STRUCTURES</div><h3>Student Queue Management</h3><p>A practice program that organizes students in arrival order using a linked-list queue structure.</p><div class="tag-row"><span>Python</span><span>OOP</span><span>Linked List</span></div></div></article>
+        <article class="project-card glass-card reveal"><div class="project-visual visual-two"><span class="visual-code">CRUD()</span><span class="visual-orb"></span></div><div class="project-content"><div class="project-type">WEB DEVELOPMENT · DATABASE</div><h3>Student Contact Manager</h3><p>A sample student-record management project focused on create, read, update, and delete operations.</p><div class="tag-row"><span>PHP</span><span>MySQL</span><span>CRUD</span></div></div></article>
+        <article class="project-card glass-card reveal"><div class="project-visual visual-three"><span class="visual-code">✈ BOOKING</span><span class="visual-orb"></span></div><div class="project-content"><div class="project-type">SYSTEM CONCEPT</div><h3>Flight Ticketing System</h3><p>A system concept for managing flight bookings, passenger details, travel options, and booking updates.</p><div class="tag-row"><span>Database</span><span>System Design</span><span>SQL</span></div></div></article>
+      </div>
+      <p class="project-note">Note: These are editable portfolio entries based on academic practice topics. Update the descriptions and status to accurately match the work you personally completed.</p>
+    </section>
+
+    <section class="section container" id="education">
+      <div class="section-heading reveal"><p class="section-kicker">04 / BACKGROUND</p><h2>Education & <span class="gradient-text">growth.</span></h2></div>
+      <div class="timeline glass-card reveal"><div class="timeline-marker"></div><div class="timeline-content"><span class="timeline-date">CURRENT STUDIES</span><h3>Bachelor of Science in Information Technology</h3><p class="school-name">ICCT Colleges – Cainta Campus</p><p>Building foundational knowledge in programming, web development, computer systems, and information technology.</p><span class="timeline-status"><i></i> Currently studying</span></div></div>
+      <div class="achievement-panel reveal"><div class="achievement-icon">✧</div><div><h3>Achievements & certifications</h3><p>I'll add certificates, awards, and other accomplishments here as I complete them.</p></div><span class="coming-soon">MORE TO COME</span></div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-box reveal"><div class="contact-decoration">✳</div><p class="section-kicker">05 / CONTACT</p><h2>Let's connect and <span class="gradient-text">learn together.</span></h2><p class="contact-description">Have a question, project idea, or opportunity to share? Feel free to send me a message.</p>
+        <form id="contactForm" class="contact-form">
+          <div class="form-row"><label>Your name<input type="text" id="visitorName" placeholder="Enter your name" required></label><label>Your email<input type="email" id="visitorEmail" placeholder="name@example.com" required></label></div>
+          <label>Message<textarea id="visitorMessage" rows="4" placeholder="Write your message..." required></textarea></label>
+          <button class="button button-primary" type="submit">Prepare email <span>↗</span></button>
+          <p class="form-hint">This form opens your email app to send the message. Add your real email address in script.js before publishing.</p>
+          <p id="formStatus" class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">R</span><span>Rolando<span class="brand-dot">.</span></span></a><p>Designed and built with curiosity. © <span id="year"></span> Rolando Gonzales Jr.</p><a href="#home" class="back-top">BACK TO TOP ↑</a></div></footer>
+</body>
+</html>
